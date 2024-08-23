@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Navbar with Logo</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <!-- Logo -->
+      <a class="navbar-brand" href="#">
+        <img src="b.jpg" alt="Logo" width="50" height="35" class="d-inline-block align-text-top"> <strong>Culture Trip</strong>
+      </a>
+      <!-- Navbar toggler for mobile view -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- Navbar items -->
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">beranda</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">kegiatan</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">galeri</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled">kontak</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div id="carouselExampleCaptions" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="4.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Amazon Rainforest</h5>
+          <p>Hutan hujan terbesar di dunia yang kaya akan keanekaragaman hayati.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="2.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Pantai Copacabana</h5>
+          <p> Pantai terkenal dengan
+            pasir putih dan suasana yang ramai
+            di Rio de Janeiro.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="3.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Fernando de Noronha</h5>
+          <p>Kepulauan yang menjadi surga bagi para penyelam dan peci pantai, terkenal dengan keindahan bawah lautnya dan pemandangan alam yang menakjubkan.</p>
+        </div>
+      </div>
+    </div>
+    
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!-- Bootstrap JS (Optional for some features) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+<br><br>
+
+<div style="text-align: center;">
+      <h5>Desfrute de férias emocionantes!</h5>
+      <p>Encontre uma variedade de atividades recreativas divertidas para toda a família.</p>
+      <a class="btn btn-primary">Go somewhere</a>
+</div>
+
+  
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="#">beranda</a></li>
+      <li class="breadcrumb-item"><a href="#">kegiatan</a></li>
+      <li class="breadcrumb-item"><a href="#">galeri</a></li>
+      <li class="breadcrumb-item active" aria-current="page">kontak</li>
+    </ol>
+  </nav>
+
+  <div class="alert alert-primary" role="alert">
+    <strong><a href="" class="href">Become a Culture Tripper!</a></strong> Sign up to our newsletter to save up to $1,200 on our unique trips.
+  </div>
+  
+
+
+  <div class="row row-cols-1 row-cols-md-3 g-3">
+    <div class="col">
+      <div class="card">
+        <img src="2.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Pantai Copacabana</h5>
+          <p class="card-text">Pantai terkenal dengan
+            pasir putih dan suasana yang ramai
+            di Rio de Janeiro.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="3.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Fernando de Noronha</h5>
+          <p class="card-text">Kepulauan yang menjadi surga bagi para penyelam dan peci pantai, terkenal dengan keindahan bawah lautnya dan pemandangan alam yang menakjubkan.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="4.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Amazon Rainforest</h5>
+          <p class="card-text">Hutan hujan terbesar di dunia yang kaya akan keanekaragaman hayati.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="5.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Lençóis Maranhenses</h5>
+          <p class="card-text">Taman Nasional dengan
+            bukit pasir putih dan laguna biru
+            yang unik.</p>
+        </div>
+      </div>
+    </div>
+  
+  <div class="col">
+    <div class="card">
+      <img src="1.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Air Terjun Iguazu</h5>
+        <p class="card-text">Salah satu air terjun
+          terbesar di dunia, terletak di
+          perbatasan Brazil dan Argentina</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="Untitled.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Cristo Redentor</h5>
+        <p class="card-text">Patung ikonik di Rio de
+          Janeiro, yang berdiri di puncak
+          Gunung Corcovado.</p>
+      </div>
+    </div>
+  </div> 
+ 
+
+  <nav saria-label="Page navigation example" style="padding-left: 50%;">
+    <ul class="pagination justify-content-center">
+      <li class="page-item disabled">
+        <a class="page-link">Previous</a>
+      </li>
+      <li class="page-item"><a class="page-link" href="#">1</a></li>
+      <li class="page-item"><a class="page-link" href="#">2</a></li>
+      <li class="page-item"><a class="page-link" href="#">3</a></li>
+      <li class="page-item">
+        <a class="page-link" href="#">Next</a>
+      </li>
+    </ul>
+  </nav>
+</body>
+</html>
